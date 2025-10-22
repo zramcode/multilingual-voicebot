@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Audio AI Assistant</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1> Audio AI Assistant</h1>
+    <form action="/process" method="post" enctype="multipart/form-data">
+        <label>Select your audio file:</label><br>
+        <input type="file" name="file" accept="audio/*" required><br><br>
+
+        <label>FAQs (optional):</label><br>
+        <textarea name="faqs" rows="3">Pricing, refunds, course access</textarea><br><br>
+
+        <label>Content Overview (optional):</label><br>
+        <textarea name="content" rows="3">My Website provides online data and AI courses.</textarea><br><br>
+
+        <button type="submit"> Process Audio</button>
+    </form>
+</body>
+</html>

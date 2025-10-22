@@ -1,0 +1,69 @@
+# -------------------------------
+# Python
+# -------------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+*.pyc
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Byte-compiled / optimized / DLL files
+*.dll
+*.log
+*.pot
+*.pyc
+
+# -------------------------------
+# FastAPI / Uvicorn / cache
+# -------------------------------
+*.db
+*.sqlite3
+*.sqlite
+.cache/
+*.pid
+
+# -------------------------------
+# Audio uploads and output files
+# -------------------------------
+uploads/
+output/
+*.wav
+*.mp3
+*.m4a
+
+# -------------------------------
+# IDE / Editor specific
+# -------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------------
+# macOS / Windows system files
+# -------------------------------
+.DS_Store
+Thumbs.db
+
+# -------------------------------
+# Environment variables / secrets
+# -------------------------------
+*.env
+.env.*
+secret.key
+apikey.txt
+
+# -------------------------------
+# Build / distribution
+# -------------------------------
+build/
+dist/
+*.egg-info/
