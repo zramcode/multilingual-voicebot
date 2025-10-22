@@ -44,10 +44,6 @@ OpenAI GPT-4o
 Modular OOP structure for maintainability
 
 
-# Clone the repository
-git clone https://github.com/USERNAME/multilingual-voicebot.git
-cd multilingual-voicebot
-
 # Create a virtual environment
 python -m venv venv
 venv\Scripts\activate     # Windows
